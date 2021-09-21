@@ -1,0 +1,18 @@
+✔ Capturar os botões de controle nas variáveis botaoPedra, botaoPapel, botaoTesoura @done(21-07-12 15:22)
+✔ Associar ao clique dos botões a função jogar 
+✔ Fazer com que a função jogar alerte "pedra", "papel" ou "tesoura", dependendo do botão que foi clicado @done(21-07-13 10:57)
+✔ Fazer uma função jogaComputador. Essa função deve retornar uma string "pedra", "papel" ou "tesoura" aleatoriamente. @done(21-07-13 11:20)
+✔ Comparar o que o computador jogou com o que o usuário jogou @done(21-07-13 14:01)
+✔ Incrementar o placar de acordo. @done(21-07-13 16:01)
+✔ Exibir mensagem de vitória, empate ou derrota: @done(21-07-14 11:49)
+    ✔ Capturar o elemento que vai exibir a mensagem. @done(21-07-14 11:49)
+    ✔ Exibir a mensagem correta sempre que necessário @done(21-07-14 11:49)
+✔ Aplicar os CSSs de acordo com os resultados das jogadas...
+
+Resetar o placar:
+    ✔ Capturar o botão "resetar" e guardá-lo em uma variável @done(21-07-14 10:49)
+    ✔ Criar uma função "resetarPlacar" que faz o seguinte @done(21-07-14 10:58)
+        ✔ 1 - Atribui ZERO à variável pontuacaoJogador @done(21-07-14 10:58)
+        ✔ 2 - Atribui ZERO à variável pontuacaoComputador @done(21-07-14 10:58)
+        ✔ 3 - Executa a função mostraPlacar @done(21-07-14 10:58)
+    ✔ Fazer com que a função resetarPlacar seja executada sempre que o botão resetar seja clicado! @done(21-07-14 10:58)
