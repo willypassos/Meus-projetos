@@ -1,0 +1,20 @@
+    .container-servicos .banner-servicos {
+        flex-wrap: wrap;
+        display: flex;
+        max-width: 100%;
+        width: 500px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .servicos {
+        display: flex;
+        justify-content: flex-end;
+        width: 530px;
+        flex-wrap: wrap;
+    }
+    
+    .banner-servicos .container-servicos .servicos {
+        width: 400;
+        max-width: 100%
+    }

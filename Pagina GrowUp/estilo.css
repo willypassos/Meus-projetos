@@ -1,0 +1,174 @@
+/* configuração inicial */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+* {
+    /* atributo que diz pro elemento respeitar o limite width */
+    box-sizing: border-box;
+}
+
+body {
+    /* tirando espaçamento padrão do navegador */
+    margin: 0;
+    /*top 100px ,left ,right e bottom 0*/
+    padding: 100px 0 0;
+    font-family: 'Roboto', sans-serif;
+    color: #9B9B9B;
+}
+
+header {
+    /* cor de fundo */
+    background-color: #00796B;
+    /* cor do texto */
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    /* remove marcação da lista */
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    /* remove sublinhado do link */
+    text-decoration: none;
+    /* transforma letra em maiuscula */
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header .container {
+    /* ativando o flexbox */
+    display: flex;
+    /* alinhamento horizontal */
+    justify-content: space-between;
+    /* alinhamento vertical */
+    align-items: center;
+    /* permite quebrar linha */
+    flex-wrap: wrap;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+
+footer {
+    background-color: #C4C4C4;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: #fff;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #009688;
+    font-size: 30px;
+}
+
+p {
+    color: #9B9B9B;
+}
+
+.banner .container img,
+.banner .container .texto,
+.intro-sobre .container img,
+.intro-sobre .container .texto {
+    width: 500px;
+    max-width: 100%;
+}
+
+.intro-sobre .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+
+.video {
+    text-align: center;
+}
+
+h2 {
+    color: #009688;
+    text-transform: uppercase;
+}
+
+.pilares {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+/* contato */
+
+.formulario,
+.informacoes {
+    width: 500px;
+    max-width: 100%;
+}
+
+form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: #009688;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 30px;
+    border: none;
+}
+
+section.contato .container {
+    /* habilitar flexbox */
+    display: flex;
+    /* alinhar na horizontal */
+    justify-content: space-between;
+    /* alinhar na vertical */
+    align-items: flex-start;
+    /* altura minima */
+    min-height: 80vh;
+    /* permite quebrar linha (responsividade) */
+    flex-wrap: wrap;
+}
+
+.informacoes iframe {
+    width: 100%;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.informacoes {
+    padding-top: 80px;
+}
